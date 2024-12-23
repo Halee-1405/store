@@ -1,0 +1,85 @@
+.desmenu {
+    margin-top: 93px;
+}
+.drink {
+    display: flex;
+    justify-content: space-between;
+}
+
+.des {
+    margin-top: 2%;
+    margin-left: 200px; 
+
+}
+.des h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+.des p {
+    width: 580px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.image {
+    margin-right: 100px;
+}
+.image img {
+    width: 500px;
+}
+
+.drink4 {
+    color: #CC9554 !important;
+    border-color: #CC9554 !important;
+    background-color: #AFCC9C !important;
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/cake/SPECIALTYCOFFEE/Untitled-1-01.png) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    
+}
+
+
+.drink5 {
+    color: #CC9554; 
+    border-color: #CC9554;  
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/cake/SPECIALTYTEA/MODULE_TRA.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.drink6 {
+    color: #CC9554; 
+    border-color: #CC9554;  
+    background-color:#AFCC9C;  
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/cake/STANDARDMENU/Untitled-1-03.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.drink4 button {
+    border: 1px solid #cc9554;
+    color: #cc9554;
+}
+.drink5 button {
+    border: 1px solid #cc9554;
+    color: #cc9554;
+}
+.drink6 button {
+    border: 1px solid #cc9554;
+    color: #cc9554;
+}
+.des button:hover {
+    color: #fff;
+    border: #c42d34;
+    background-color: #c42d34;
+}
+.des button {
+    padding: 10px 85px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .6s;
+}

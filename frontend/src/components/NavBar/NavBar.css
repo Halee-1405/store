@@ -1,0 +1,168 @@
+
+.nav {
+    font-family: "Paytone One", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: #c42d34;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; /* Đảm bảo nó hiển thị trên các phần tử khác */
+}
+.nav-logo img {
+    width: 80px;
+}
+.nav-list {
+    margin: auto 16px;
+
+}
+
+.nav li {
+    color: #fff;
+    list-style: none;
+    display: inline-block;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.item1 {
+    text-align: center;
+    width: 145px;
+    margin: 10px;
+    padding: 15px;
+}
+.item2 {
+    margin: 0 8px;
+}
+
+/* Tính năng NavBar*/
+#login {
+    width: 145px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: .3s;
+}
+#login:hover {
+    background-color: #a14d40;
+}
+#login, .item1:hover {
+    background: #9c3b2c;
+    border-radius: 1px;
+}
+
+/* Ẩn sub-menu theo mặc định */
+.nav .sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #9c3b2c;
+}
+  
+  /* Hiển thị sub-menu khi di chuột vào .nav-item */
+.nav-item:hover .sub-menu {
+    display: block;
+}
+  
+  /* Đảm bảo rằng .sub-menu không che khuất các phần khác */
+.sub-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #ccc;
+}
+.sub-menu li {
+    border-bottom: 1px solid #ccc;
+}
+a {
+    color: #fff;
+}
+.sub-menu ul li a:hover {
+    color: rgb(238, 155, 78);
+    transition: color 0.3s ease;
+}
+
+.sub-menu ul li {
+    width: 145px;
+    padding: 15px;
+    /* padding: 8px 16px; */
+}
+  
+.sub-menu ul li {
+    color: #fff; /* Màu chữ của sub-menu */
+    text-decoration: none;
+}
+  
+.sub-menu ul li:hover {
+    background-color: #9c3b2c; /* Hiệu ứng khi di chuột qua mục sub-menu */
+}
+
+
+.nav-list li:hover .sub-menu {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+/* SEARCH-BAR */
+
+
+.search-form {
+    position: absolute;
+    top: 100%; right: 7%;
+    background: #fff;
+    width: 35rem;
+    height: 3.5rem;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s ease;
+}
+.search-form.active {
+    transform: scaleY(1);
+}
+.search-form input {
+    height: 100%;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #333;
+    padding: 1rem;
+    text-transform: none;
+    border: none;
+}
+.search-form label {
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #333;
+}
+.search-form label:hover {
+    color: #3773e2;
+}
+#search {
+    cursor: pointer;
+}
+
+#cart {
+    position: relative;
+}
+
+.cart-count {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #9c3b2c;  /* Màu nền của số */
+    color: #fff;  /* Màu chữ */
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+}

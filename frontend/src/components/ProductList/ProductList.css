@@ -1,0 +1,65 @@
+.menu {
+    width: 1000px;
+    margin: auto;
+    padding: 20px 0 30px;
+    color: #813716b9;
+  }
+  
+  .menu h1 {
+    color: #ca3940;
+    width: fit-content;
+    border-bottom: 5px solid #e4cd66;
+    font-size: 35px;
+    font-family: "Paytone One", sans-serif;
+  }
+  
+.menu-hott {
+    font-family: "Paytone One", sans-serif;
+    margin-top: 20px;
+    display: flex;
+    column-gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.menu-page .menu-hott {
+  column-gap: 100px; 
+  row-gap: 50px; 
+
+}
+  #products {
+    margin-top: 50px;
+
+  }
+  
+  .title-son {
+    margin-top: 60px;
+    font-size: 2.5em;
+    font-family: "Paytone One", sans-serif;
+    color: #53382c;
+  }
+
+.btn-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.btn-add button {
+    padding: 10px 85px;
+    font-size: 1.1em;
+    color: #c42d34;
+    border: 1px solid #c42d34;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.btn-add button:hover {
+    color: #fff;
+    background-color: #c42d34;
+}
+  

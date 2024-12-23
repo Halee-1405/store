@@ -1,0 +1,18 @@
+.menu {
+    width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+    padding: 30px 0;
+    color: #813716b9;
+}
+#menu1 {
+    margin-top: 70px;
+
+}
+#menu1 img {
+    width: 100%;
+}
+.no-wrap {
+    white-space: nowrap;
+    color: #333;
+}

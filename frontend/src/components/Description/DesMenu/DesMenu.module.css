@@ -1,0 +1,83 @@
+.desmenu {
+    margin-top: 93px;
+}
+.drink {
+    display: flex;
+    justify-content: space-between;
+}
+
+.des {
+    margin-top: 3%;
+    margin-left: 200px; 
+}
+.des h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+.des p {
+    width: 580px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.image {
+    margin-right: 100px;
+}
+.image img {
+    width: 420px;
+}
+
+.drink1 {
+    color: #faebd7; 
+    border-color: #faebd7;  
+    background-color:#fbedd7;  
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-PSD-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.drink2 {
+    color: #006400; 
+    border-color: #006400;  
+    background-color:#f0bb7c;  
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-FREEZE.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.drink3 {
+    color: #ffffff; 
+    border-color: #ffffff; 
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/product/11_2022/Banner/Product_Tra_BG_Web_Banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.drink1 button {
+    border: 1px solid #fff;
+    color: #faebd7;
+}
+.drink2 button {
+    border: 1px solid #006400;
+    color: #006400;
+}
+.drink3 button {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.des button:hover {
+    border: #c42d34;
+    background-color: #c42d34;
+}
+.des button {
+    padding: 10px 85px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .6s;
+}

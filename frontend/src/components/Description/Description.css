@@ -1,0 +1,57 @@
+.poster {
+    padding: 50px 20px;
+    display: flex;
+}
+.poster1 {
+    background-color: #d89a9abe;
+}
+.poster1 img {
+    width: 55%;
+}
+.poster1 p {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.poster1 b {
+    font-size: 45px;
+    color: rgb(197, 36, 8);
+}
+
+.poster2 {
+    background-color: #e9a44b;
+}
+.poster2 img {
+    width: 55%;
+}
+.poster2 p {
+    width: 500px;
+    margin: auto;
+    margin-top: 80px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.poster2 b {
+    font-size: 45px;
+    color: rgb(197, 36, 8);
+}
+
+.poster3 {
+    background-color: #afae6cd8;
+}
+.poster3 img {
+    width: 55%;
+}
+.poster3 p {
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.poster3 b {
+    font-size: 45px;
+    color: rgb(197, 36, 8);
+}
